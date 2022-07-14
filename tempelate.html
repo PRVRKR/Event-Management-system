@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body{
+        background-image: linear-gradient(to right,#012F78, #6D235E);
+    }
+    .head{
+        background-color: #007FAE;
+        margin: 0px 0px 50px;
+        padding: 80px 0px;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .first{
+        font-size: 20px;
+    }
+    .container-fluid{
+        margin: 0px;
+        padding: 0px;
+    }
+    .img-responsive{
+        width:900px; 
+        height:300px;
+    }
+    .second{
+        background-color: #BD0D5E;
+        text-align: left;
+        height: 300px;
+        width: 650px;
+        padding:50px 32px 32px;;
+        float: right;
+        color: white;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    #second{
+        font-size: 15px;
+    }
+    .third-one{
+        background-color: #BC0E5D;
+        height: 200px;
+        width: 520px;
+        margin: 25px 0px;
+        padding: 30px 0px;
+    }
+    .third-one-image{
+        height: 80px;
+        width: 200px;
+        margin: 15px 160px;
+    }
+    .third-text{
+        color: white;
+        font-weight: 700;
+        margin: 0px 200px;
+        padding: 0px 15px;
+    }
+    .third-two{
+        text-align: center;
+        background-color:#FEB500;
+        height: 200px;
+        width: 520px;
+        margin: 25px 12px;
+        padding: 30px 0px;
+    }
+    .third-two-image{
+        height: 90px;
+        width: 90px;
+        margin: 10px 160px;
+    }
+    .third-three{
+        text-align: right;
+        background-color:#0090BC;
+        height: 200px;
+        width: 470px;
+        margin: 25px 25px;
+        padding: 30px 0px;
+    }
+    .third-three-image{
+        height: 80px;
+        width: 80px;
+        margin: 15px 200px;
+    }
+    .third-three-text{
+        color: white;
+        font-weight: 700;
+        margin: 0px 220px;
+        padding: 5px 0px;
+    }
+    .forth{
+        background-color: #86B62E;
+        margin: 25px 0px 50px;
+        padding: 80px 0px;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .fifth-one{
+        border: 0px solid black;
+        background-color: #1A3E7A;
+        height: 550px;
+        width: 358px;
+    }
+    .fifth-one-img{
+        height: 370px;
+        width: 350px;
+        margin: 5px;
+    }
+    .fifth-one-text{
+        color: white;
+        margin: 12px;
+    }
+    .text{
+        color: white;
+        margin: 12px;
+        font-size: 14px;
+    }
+    .sixth{
+        background-image: linear-gradient(to right,#F0C3AE, #9984AD);
+        margin: 25px 0px 0px;
+        padding: 80px 0px;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .button{
+        font-size: 20px;
+    }
+    [class*="col-"] {
+  width: 100%;
+    }
+    @media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
+<body>
+    <div class="head">
+        Hello! Welcome to Metro<br>
+        <p class="first">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud <br>exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla <br>pariatur.
+        </p>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6">
+            <img class="img-responsive" src="https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-2248ef5d--JSN-Metro-2-About-1.jpg?v=1622539910">
+        </div>
+        <div class="col-6">
+            <div class="second">Who we are<br>
+            <p id="second">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim<br> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <br>commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate<br> velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4">
+                <div class="third-one">
+                 <img class="third-one-image" src="https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-74ed583a--JSN-Metro-2-About-2.svg?v=1616056554">
+                 <p class="third-text">OUR WORK</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="third-two">
+                     <img class="third-two-image" src="https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-ed583a63--JSN-Metro-2-About-3.png?v=1616056559">
+                     <p class="third-text">GALLERY</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="third-three">
+                     <img class="third-three-image" src="https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-583a6349--JSN-Metro-2-About-4.svg?v=1616056564">
+                     <p class="third-three-text">BLOG</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="forth">
+            This is our team<br>
+            <p class="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam, quis nostrud <br> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla<br> pariatur.</p>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+                <div class="fifth-one">
+                <img class="fifth-one-img" src="https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-c59501cf--JSN-Metro-2-About-8.jpg?v=1622539931">
+                <p class="fifth-one-text"><b>LILY PIERCE</b><br>
+                co-founder<br></p>
+                <p class="text">
+                Lorem ipsum amet dolor sit amet, consectetur <br>adipisicing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. 
+                Lorem ipsum dolor <br>magna amet amet, consectetur adipisicing.
+            </p>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="fifth-one">
+                <img class="fifth-one-img" src="https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-5dc59501--JSN-Metro-2-About-7.jpg?v=1622539926">
+                <p class="fifth-one-text"><b>LILY PIERCE</b><br>
+                co-founder<br></p>
+                <p class="text">
+                Lorem ipsum amet dolor sit amet, consectetur <br>adipisicing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. 
+                Lorem ipsum dolor <br>magna amet amet, consectetur adipisicing.
+            </p>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="fifth-one">
+                <img class="fifth-one-img" src="https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-ef5dc595--JSN-Metro-2-About-6.jpg?v=1622539921">
+                <p class="fifth-one-text"><b>LILY PIERCE</b><br>
+                co-founder<br></p>
+                <p class="text">
+                Lorem ipsum amet dolor sit amet, consectetur <br>adipisicing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. 
+                Lorem ipsum dolor <br>magna amet amet, consectetur adipisicing.
+            </p>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="fifth-one">
+                <img class="fifth-one-img" src="https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-48ef5dc5--JSN-Metro-2-About-5.jpg?v=1622539916">
+                <p class="fifth-one-text"><b>LILY PIERCE</b><br>
+                co-founder<br></p>
+                <p class="text">
+                Lorem ipsum amet dolor sit amet, consectetur <br>adipisicing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua. 
+                Lorem ipsum dolor <br>magna amet amet, consectetur adipisicing.
+            </p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="sixth">
+        Want to try Metro?<br>
+        <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim<br> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <a class="button" href="https://help.pagefly.io/manual/button-element/?utm_campaign=manual&utm_source=templates&utm_medium=preview&utm_content=button">
+        <button class="border border-light text-danger"><b>Download Now</b></button></a>
+    </div>
+</body>
+</html>
